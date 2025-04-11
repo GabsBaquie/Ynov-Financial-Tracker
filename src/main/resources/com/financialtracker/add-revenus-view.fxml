@@ -11,6 +11,7 @@
             fx:controller="com.financialtracker.AddRevenusView"
             prefHeight="400.0" prefWidth="600.0"
             stylesheets="@CSS/add-line-view.css">
+
     <VBox alignment="CENTER" spacing="10.0">
         <Label text="Période" />
         <TextField fx:id="periodField" promptText="Période" />

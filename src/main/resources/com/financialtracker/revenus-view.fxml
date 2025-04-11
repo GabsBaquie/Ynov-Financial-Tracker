@@ -15,7 +15,10 @@
     <fx:include source="header.fxml"></fx:include>
 
     <!-- Text to present the page  -->
-    <Label text="Tableau récapitulatif des revenus" styleClass="page-title" />
+    <HBox alignment="CENTER" spacing="10" prefWidth="580">
+        <Label text="Tableau de bord" styleClass="page-title" HBox.hgrow="ALWAYS" />
+        <Button fx:id="addButton" text="Ajouter" onAction="#openAddRevenusView" styleClass="primary-button" />
+    </HBox>
 
     <HBox alignment="CENTER">
         <TableView fx:id="revenusTable" VBox.vgrow="ALWAYS">
@@ -59,6 +62,5 @@
                 </FXCollections>
             </items>
         </TableView>
-        <Button fx:id="addButton" text="Ajouter" onAction="#openAddRevenusView" />
     </HBox>
 </VBox>
