@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" stylesheets="@CSS/main-view.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.financialtracker.Dashboard">
+<VBox alignment="CENTER" stylesheets="@CSS/main-view.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.financialtracker.controller.Dashboard">
     <fx:include fx:id="header" source="header.fxml" />
     <Label styleClass="page-title" text="Dashboard" />
     <ChoiceBox fx:id="periodChoiceBox" />

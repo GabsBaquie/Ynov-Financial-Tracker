@@ -1,5 +1,6 @@
-package com.financialtracker;
+package com.financialtracker.controller;
 
+import com.financialtracker.model.Line;
 import com.financialtracker.db.ExpenseDAO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -28,7 +29,7 @@ public class HelloController {
 
     @FXML
     public void openAddLineView(ActionEvent event) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("add-line-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/financialtracker/add-line-view.fxml"));
         Parent parent = fxmlLoader.load();
 
         AddLineView controller = fxmlLoader.getController();

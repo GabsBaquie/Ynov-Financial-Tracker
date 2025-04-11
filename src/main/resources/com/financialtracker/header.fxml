@@ -4,7 +4,7 @@
 
 <MenuBar xmlns="http://javafx.com/javafx"
          xmlns:fx="http://javafx.com/fxml"
-         fx:controller="com.financialtracker.Header">
+         fx:controller="com.financialtracker.controller.Header">
     <Menu text="Navigation">
         <MenuItem text="Tableau" onAction="#showMain"/>
         <MenuItem text="Dashoard" onAction="#showDashbord"/>

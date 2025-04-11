@@ -6,8 +6,8 @@
 
 <?import javafx.collections.FXCollections?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
-<?import com.financialtracker.Line?>
-<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.financialtracker.HelloController" stylesheets="@CSS/main-view.css">
+<?import com.financialtracker.model.Line?>
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.financialtracker.controller.HelloController" stylesheets="@CSS/main-view.css">
     <fx:include source="header.fxml"></fx:include>
 
     <Label fx:id="welcomeText" />

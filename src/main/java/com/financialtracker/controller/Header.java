@@ -1,6 +1,7 @@
-package com.financialtracker;
+package com.financialtracker.controller;
 
 
+import com.financialtracker.HelloApplication;
 import javafx.fxml.FXML;
 
 import java.io.IOException;

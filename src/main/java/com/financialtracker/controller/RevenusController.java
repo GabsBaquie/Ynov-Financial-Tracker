@@ -1,5 +1,6 @@
-package com.financialtracker;
+package com.financialtracker.controller;
 
+import com.financialtracker.model.Revenus;
 import com.financialtracker.db.RevenusDAO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -28,7 +29,7 @@ public class RevenusController {
 
     @FXML
     public void openAddRevenusView(ActionEvent event) throws IOException, IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("add-revenus-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/financialtracker/add-revenus-view.fxml"));
         Parent parent = fxmlLoader.load();
 
         AddRevenusView controller = fxmlLoader.getController();

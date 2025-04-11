@@ -1,5 +1,7 @@
-package com.financialtracker;
+package com.financialtracker.controller;
 
+import com.financialtracker.model.Line;
+import com.financialtracker.model.Revenus;
 import com.financialtracker.db.ExpenseDAO;
 import com.financialtracker.db.RevenusDAO;
 import javafx.fxml.FXML;

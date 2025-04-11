@@ -31,7 +31,7 @@ public class HelloApplication extends Application {
         HelloApplication.setPrimaryStage(stage);
         HelloApplication.changeScene("dashboard-view.fxml");
         stage.setTitle("Finance Tracker");
-        stage.getIcons().add(new Image(HelloApplication.class.getResourceAsStream("/com/financialtracker/favicon.png")));
+        stage.getIcons().add(new Image(HelloApplication.class.getResourceAsStream("/com/financialtracker/assets/favicon.png")));
         stage.show();
     }
 
